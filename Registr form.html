@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheett" href="">
+    <title>Registration</title>
+    <style>
+        #name{border: 3px solid rgb(193, 175, 82); margin: 2px;box-shadow: 5px 8px;}
+        #srnm{border: 3px solid rgb(193, 175, 82);margin: 2px;box-shadow: 5px 8px;}
+        #date{border: 3px solid rgb(193, 175, 82);margin: 2px;box-shadow: 5px 8px;}
+        #email{border:3px solid rgb(193, 175, 82);margin: 2px;box-shadow: 5px 8px;}
+        #psw{border: 3px solid rgb(193, 175, 82);margin: 2px;box-shadow: 5px 8px;}
+        #psw-repeat{border: 3px solid rgb(193, 175, 82);margin: 2px;box-shadow: 5px 8px;}
+        #exampleCheck1{border: 2px solid rgb(193, 175, 82);box-shadow: 1px 3px;}
+        #submit{color: rgb(43, 43, 41);}
+    </style>
+</head>
+<body style="background-image: url(https://images.unsplash.com/photo-1614761509720-a0e992f78ab8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgyfGhTUDZKeDh3NFo0fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60;">
+    <form>
+        <div class="container" >
+            <h1 class="h1">Registration Form </h1>
+            <hr>
+            <div class="mb-3">            
+                <label for="name"><i><b>Name</b></i></label>
+                <input type="text" placeholder="Enter your name" name="name" id="name" >
+            </div>
+            
+            <div class="mb-3">
+                <label for="surname"><i><b>Surname</b></i></label>
+                <input type="text" placeholder="Enter your surname" name="surname" id="srnm" >
+            </div> 
+
+            <div class="mb-3">
+                <label for="gender"><i><b>Male</b></i></label>
+                <input type="radio" name="gender" value="Male" id="radio">
+                <label for="gender"><i><b>Female</b></i></label>
+                <input type="radio" name="gender" value="female" id="radiocheck">
+            </div>
+            
+            <div class="mb-3">
+                <label for="psw-repeat"><i><b>Birth</b></i></label>
+                <input type="date" name="date" id="date" >
+            </div>
+            
+            <div class="mb-3">
+                <label for="email"><i><b>Email</b></i></label>
+                <input type="text" placeholder="Enter your email" name="email" id="email" >
+            </div>
+            
+            <div class="mb-3">
+                <label for="psw"><i><b>Password</b></i></label>
+                <input type="password" placeholder="Enter new password" name="psw" id="psw" minlenght="8" >
+            </div>
+            
+            <div class="mb-3">
+                <label for="psw-repeat"><i><b>Repeat Password</b></i></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" >
+            </div>
+
+            <div class="mb-3">  
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            </div>
+            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+        
+            <hr>
+        </div>
+       </form>
+     </body>
+</html>

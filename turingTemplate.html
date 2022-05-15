@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing Template</title>
+    <link rel="stylesheet" href="SASS/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <menu>
+            <div class="img">
+                <img src="http://demo.tempload.com/turing/assets/images/logo-blue.png">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="submenu"><a href="#">Discover</a>
+                  <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Pricing Plans</a></li>
+                    <li><a href="#">Latets Blog</a></li>
+                  </ul>
+                </li>
+                <li class="submenu"><a href="#">Pages</a>
+                  <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">FAQ's</a></li>
+                    <li><a href="#">Blogs</a></li>
+                </ul>
+                </li>
+                <li><a href="#">Content</a></li>
+            </ul>
+        </menu>   
+        <div class="btn-con">
+          <button class="left-btn">Apps</button>
+          <button class="right-btn">Support</button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+      <div class="hero-con">
+        <div class="left-hero">
+            <div class="text-con">
+              <h2>Industry Leading Managed Services and Staffing Solutions</h2>
+              <p>Proven methods to capture business priorities and goals as well as current pain points that enables measurable business outcomes.</p>
+              <div class="line"></div>
+              <button class="btn-hero">Learn More</button>
+            </div>
+        </div>
+            <!-- <div class="right-hero">
+              <div class="hero-img-bg">
+               <img src="http://demo.tempload.com/turing/assets/images/photos/header.jpg" alt="">
+              </div>                
+              <div class="hero-img">
+                  <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTkyMHB4IiBoZWlnaHQ9IjEwMjBweCIgdmlld0JveD0iMCAwIDE5MjAgMTAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTEuMiAoNTc1MTkpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFydGJvYXJkIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8cGF0aCBkPSJNMTA4OS4zODgzNiwwIEw4MzMuOTQwNDQsNTQ3LjgwOTg0MiBDODIzLjIwMzc4MSw1NzAuODM0NjggODMzLjE2NTMyLDU5OC4yMDM3ODEgODU2LjE5MDE1OCw2MDguOTQwNDQgTDE3MjMuNjU3MjcsMTAxMy40NDcgQzE3NDYuNjgyMTEsMTAyNC4xODM2NiAxNzc0LjA1MTIxLDEwMTQuMjIyMTIgMTc4NC43ODc4Nyw5OTEuMTk3MjgxIEwxOTIwLDcwMS4yMzM5MzQgTDE5MjAsMTAyMCBMMCwxMDIwIEwwLDAgTDEwODkuMzg4MzYsMCBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt="">
+                </div>
+            </div> -->
+            <div class="hero-img">
+              <!-- <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTkyMHB4IiBoZWlnaHQ9IjEwMjBweCIgdmlld0JveD0iMCAwIDE5MjAgMTAyMCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTEuMiAoNTc1MTkpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkNvbWJpbmVkIFNoYXBlPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFydGJvYXJkIiBmaWxsPSIjRkZGRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICAgICAgICA8cGF0aCBkPSJNMTA4OS4zODgzNiwwIEw4MzMuOTQwNDQsNTQ3LjgwOTg0MiBDODIzLjIwMzc4MSw1NzAuODM0NjggODMzLjE2NTMyLDU5OC4yMDM3ODEgODU2LjE5MDE1OCw2MDguOTQwNDQgTDE3MjMuNjU3MjcsMTAxMy40NDcgQzE3NDYuNjgyMTEsMTAyNC4xODM2NiAxNzc0LjA1MTIxLDEwMTQuMjIyMTIgMTc4NC43ODc4Nyw5OTEuMTk3MjgxIEwxOTIwLDcwMS4yMzM5MzQgTDE5MjAsMTAyMCBMMCwxMDIwIEwwLDAgTDEwODkuMzg4MzYsMCBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt=""> -->
+            </div>
+        </div>
+</section>
+
+
+  <main class="con">          
+    <div class="ctn">
+          <div class="clm"><div class="clmn"><img src="Media/Screen1.jpg" alt=""><h2>Cloud Solutions</h2><p>Morbilling pharetra sapiening ut mattis viverra. Curabitur magna.</p></div></div>
+          <div class="clm"><div class="clmn"><img src="Media/Screen2.jpg" alt=""><h2>Network Service</h2><p>Donec pellentesque turpis utium lorem imperdiet semper viverra.</p></div></div>
+          <div class="clm"><div class="clmn"><img src="Media/Screen3.jpg" alt=""><h2>Webcast Services</h2><p>Facilisis arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p></div></div>
+          <div class="clm"><div class="clmn"><img src="Media/Screen4.jpg" alt=""><h2>Disaster Recovery</h2><p>Proin arcu ligula, malesuada id tincidunt laoreet, facilisis at justo.</p></div></div>
+    </div>
+  </main>
+
+  <section class="sectiontwo"> 
+    <div class="contwo">
+      <div class="rowtwo">
+            <div class="con-text">
+              <h2>Cloud Services</h2>
+              <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+            </div>
+           <div class="leftright"> 
+                <div class="con-left">
+                    <button  class="btn-one"> > Near Cloud</button>
+                    <button class="btn"> >Backup systems</button>
+                    <button class="btn"> >API Cloud</button>
+                    <button class="btn"> >Web Services</button>
+                </div>
+
+                <div class="con-right">
+                    <button class="btn"> >Office Cloud</button>
+                    <button class="btn"> >Hibrid Cloud</button>
+                    <button class="btn"> >SDK Cloud</button>
+                    <button class="btn"> >Cloud Hosting</button>
+               </div>
+            </div>
+      </div>
+
+      <div class="img-con">
+        <div class="img"> 
+          <img src="http://demo.tempload.com/turing/assets/images/photos/features/blue-1.png"> 
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sectiontwo" style="background-color: rgb(255, 255, 255);">
+    <div class="contwo">
+      <div class="img-con">
+          <div class="img"> 
+            <img src="http://demo.tempload.com/turing/assets/images/photos/features/blue-2.png"> 
+          </div>
+        </div>
+      <div class="rowtwo">
+        <div class="con-text">
+          <h2> Design & Development</h2>
+          <p>Phasellus vitae velit sit amet diam semper commodo quis quis libero. Morbi consequat arcu augue, molestie faucibus metus ullamcorper vel.</p>
+        </div>
+       <div class="leftright"> 
+            <div class="con-left">
+                <button  class="btn-one"> >Web design</button>
+                <button class="btn"> >Android Development</button>
+                <button class="btn"> >Back-End</button>
+                <button class="btn"> >e-commerce</button>
+            </div>
+
+            <div class="con-right">
+                <button class="btn"> >Mobile App Design</button>
+                <button class="btn"> >IOS Development</button>
+                <button class="btn"> >Front-End</button>
+                <button class="btn"> >Print Design</button>
+           </div>
+        </div>
+  </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
